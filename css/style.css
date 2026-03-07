@@ -95,7 +95,7 @@ body {
 
 #hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
-                    url('hero-background.png');
+                    url('../hero-background.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -128,7 +128,9 @@ body {
 
 #hero a {
   font-size: 16px;
+  font-weight: 500;
   display: inline-block;
+  letter-spacing: 0.02rem;
   padding: 12px 25px;
   background-color: #005EA6;
   color: #fff;
@@ -1152,3 +1154,45 @@ section h2 {
   }
 }
 
+#hero-locations {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #0E436F;
+  padding: 124px 64px;
+  width: auto;
+}
+
+#hero-locations h1 {
+  font-size: 62px;
+  margin-bottom: 6px;
+  font-weight: 700; 
+  color: #FFAD33;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+#hero-loctions p {
+  font-size: 24px;
+  max-width: 1030px;
+  margin-bottom: 12px;
+  font-weight: 400;
+  color: #FFFFFF;
+  text-align: left;
+  line-height: 120%;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+#hero-locations h2 {
+  font-size: 48px;
+  margin-bottom: 6px;
+  font-weight: 700; 
+  color: #FFFFFF;
+  text-align: left;
+  line-height: 137%;
+  letter-spacing: -0.03em;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+  font-family: 'Montserrat', sans-serif;
+}
