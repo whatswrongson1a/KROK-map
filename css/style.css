@@ -321,19 +321,23 @@ section h2 {
 }
 
 .event-box0 {
-  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 48px;
+  align-items: center;
 }
 
 .event-box1 {
   display: flex;
   gap: 48px;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
+.event {
+  flex: 1 1 250px;
+}
 .event-box2 {
   display: flex;
   gap: 48px;
@@ -348,16 +352,6 @@ section h2 {
   flex-direction: column;
   gap: 8px;
   box-shadow: 0px 8px 24px rgba(3, 35, 80, 0.12);
-}
-
-.event-box1 .event {
-  width: calc((100% - 96px) / 3);
-  height: 157px;
-}
-
-.event-box2 .event {
-  width: calc((100% - 48px) / 2);
-  height: 157px;
 }
 
 .event-time {
@@ -395,9 +389,9 @@ section h2 {
   margin: 64px auto 0;
   padding: 24px 36px;
 
-  background: linear-gradient(180deg, #1E6FA8 0%, #166391 100%);
+  background: linear-gradient(180deg, #18578B 0%, #0E436F 100%);
   border: 1px solid rgba(14, 67, 111, 0.08);
-  border-radius: 16px;
+  border-radius: 10px;
 
   color: #ffffff;
   text-decoration: none;
