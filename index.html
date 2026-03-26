@@ -18,7 +18,7 @@
   </label>
       <ul>
         <li><a href="#map">Карта</a></li>
-        <li><a href="locations.html">Локації</a></li>
+        <li><a href="#filter">Локації</a></li>
         <li><a href="#program">Програми заходів</a></li>
         <li><a href="#managers">Менеджери зі вступу</a></li>
       </ul>
@@ -31,28 +31,7 @@
     <a href="#more-info">Дізнатися більше</a>
   </section>
 
-  <section id="cyber-festival">
-
-    <div id="section-container-cyber">
-
-      <div>
-    <h2>KROK Game Squad</h2>
-    <p id="section-h2-yellow">14 березня 2026 року</p>
-    <p id="section-p-cyber">Запрошуємо на щорічний Кіберспортивний турнір з гри «Counter - Strike 2» у форматі Wingman [2x2] учнів 9-11 класів</p>
-
-    <div class="event">
-      <div class="cyber-place">Місце проведення:</div>
-      <div class="cyber-place-name">Аудиторії: 020, 021, 016</div>
-    </div>
-</div>
-
-<div id="section-container-cyber-img">
-  <img src="cyber-poster.png" alt="Постер Кіберспортивного Турніру">
-</div>
-
-
-</div>
-  </section>
+  
 
   <section id="map">
     <h2>Карта приміщення</h2>
@@ -67,9 +46,64 @@
 
   </div>
 
+
   <button class="carousel-btn next" type="button" aria-label="Next">›</button>
 </div>
   </section>
+
+  <section class="location-filter-section" id="filter">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-badge">Навігація по локаціях</span>
+      <h2>Обери потрібну локацію за критеріями</h2>
+      <p>
+        Обери рівень освіти та освітню програму, щоб швидко знайти потрібну локацію.
+      </p>
+    </div>
+
+    <div class="filter-panel">
+      <div class="filter-group">
+        <label for="educationLevel">Рівень освіти</label>
+        <select id="educationLevel">
+          <option value="">Оберіть рівень</option>
+          <option value="college">Коледж</option>
+          <option value="bachelor">Бакалаврат</option>
+          <option value="master">Магістратура</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="programType">Освітня програма</label>
+        <select id="programType">
+          <option value="">Оберіть програму</option>
+          <option value="journalism">Журналістика</option>
+          <option value="psychology">Психологія</option>
+          <option value="law">Юридичний</option>
+          <option value="economics">Економіка та фінанси</option>
+          <option value="cs">Комп`ютерні науки</option>
+        </select>
+      </div>
+
+      <div class="filter-actions">
+        <button class="btn btn-primary" id="showResultsBtn" type="button">Підібрати локацію</button>
+        <button class="btn btn-secondary" id="showAllBtn" type="button">Показати весь список</button>
+        <button class="btn btn-ghost" id="resetBtn" type="button">Скинути</button>
+      </div>
+    </div>
+
+    <div class="results-topbar">
+      <p id="resultsInfo">Оберіть критерії або перегляньте весь список.</p>
+    </div>
+
+    <div class="locations-grid" id="locationsGrid"></div>
+
+    <div class="empty-state" id="emptyState">
+      <div class="empty-icon">📍</div>
+      <h3>Локації не знайдено</h3>
+      <p>Спробуй змінити критерії пошуку або переглянути весь список.</p>
+    </div>
+  </div>
+</section>
 
   <section id="program">
     <h2>Програма заходів</h2>
@@ -163,5 +197,6 @@
 </footer>
 
 <script src="carousel.js"></script>
+<script src="locations-filter.js"></script>
 </body>
 </html>

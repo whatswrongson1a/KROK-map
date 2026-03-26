@@ -28,4 +28,3 @@ const io = new IntersectionObserver(entries => {
   });
 }, { threshold: 0.12 });
 
-els.forEach(el => io.observe(el));
