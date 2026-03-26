@@ -6,7 +6,7 @@ els.forEach(el => io.observe(el));
     program: "journalism",
     programLabel: "Журналістика",
     title: "Локація кафедри журналістики",
-    url: "/journalism-location.html",
+    url: "journalism-location.html",
     description: "Інформаційна локація для абітурієнтів освітньої програми «Журналістика».",
     levels: ["college", "bachelor", "master"]
   },
@@ -15,7 +15,7 @@ els.forEach(el => io.observe(el));
     program: "psychology",
     programLabel: "Психологія",
     title: "Локація кафедри психології",
-    url: "/psychology-location.html",
+    url: "psychology-location.html",
     description: "Тут можна дізнатися деталі про навчання, вступ та програму кафедри психології.",
     levels: ["college", "bachelor", "master"]
   },
@@ -24,7 +24,7 @@ els.forEach(el => io.observe(el));
     program: "law",
     programLabel: "Юридичний",
     title: "Локація кафедри юридичного факультету",
-    url: "/law-location.html",
+    url: "law-location.html",
     description: "Локація для консультацій щодо освітньої програми юридичного напряму.",
     levels: ["college", "bachelor", "master"]
   },
@@ -33,7 +33,7 @@ els.forEach(el => io.observe(el));
     program: "cs",
     programLabel: "Комп`ютерні науки",
     title: "Локація ННІІКТ аудиторія 301",
-    url: "/cs-location-301.html",
+    url: "cs-location-301.html",
     description: "Одна з основних локацій для ознайомлення з напрямом «Комп`ютерні науки».",
     levels: ["college", "bachelor", "master"]
   },
@@ -42,7 +42,7 @@ els.forEach(el => io.observe(el));
     program: "cs",
     programLabel: "Комп`ютерні науки",
     title: "Локація ННІІКТ аудиторія 106",
-    url: "/cs-location-106.html",
+    url: "cs-location-106.html",
     description: "Додаткова локація для освітньої програми «Комп`ютерні науки».",
     levels: ["college", "bachelor", "master"]
   },
@@ -51,7 +51,7 @@ els.forEach(el => io.observe(el));
     program: "economics",
     programLabel: "Економіка та фінанси",
     title: "Локація кафедри економіки та фінансів",
-    url: "/economics-and-finances-location.html",
+    url: "economics-and-finances-location.html",
     description: "Локація для абітурієнтів, які цікавляться економічними та фінансовими спеціальностями.",
     levels: ["college", "bachelor", "master"]
   }
