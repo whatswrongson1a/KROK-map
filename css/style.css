@@ -34,6 +34,8 @@ body {
   font-weight: 400; 
 }
 
+/* хедер */
+
 .header {
   display: flex;
   flex-direction: row;
@@ -93,6 +95,10 @@ body {
   background: #237DC2;
 }
 
+/* конец хедера */
+
+/* хиро секция */
+
 #hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
                     url('../hero-background.png');
@@ -142,6 +148,10 @@ body {
 #hero a:hover {
   background-color: #257CBE;
 }
+
+/* конец хиро секции */
+
+/* по идеи секция кибертурнира */
 
 section {
   padding: 60px 20px;
@@ -228,6 +238,9 @@ section h2 {
   color: #005EA6;
 }
 
+/* конец секции кибертурнира */
+
+/* карты */
 
 #map {
   padding: 64px;
@@ -312,6 +325,7 @@ section h2 {
   background: rgba(0, 0, 0, 0.65);
 }
 
+/* конец секции карт */
 
 /* фильтр по локациям бакалаврат колледж и магистратура*/
 
@@ -658,6 +672,10 @@ section h2 {
   }
 }
 
+/* конец фильтра */
+
+/* секция программы и ивенты */
+
 #program {
   padding: 32px 64px;
 }
@@ -722,6 +740,10 @@ section h2 {
   color: #B3B3B3;
 }
 
+/*  конец секции программы и ивенты */
+
+/* кнопка регистрации */
+
 .register-button {
   margin-top: 64px;
   display: flex;
@@ -781,6 +803,10 @@ section h2 {
     font-size: 20px;
   }
 }
+
+/* конец кнопки */
+
+/* менеджерс */
 
 #managers {
   padding: 64px 80px;
@@ -852,6 +878,10 @@ section h2 {
   line-height: 19px;
 }
 
+/* конец менеджерс */
+
+/* кнопка вступу */
+
 .vstup-button {
   display: flex;
   align-items: center;
@@ -911,6 +941,10 @@ section h2 {
   }
 }
 
+/* конец кнопки вступу */
+
+/* футер */
+
 #footer {
   background: #0E436F; 
   padding: 32px 64px;
@@ -962,6 +996,7 @@ section h2 {
   opacity: 0.8;
 }
 
+/* конец футера */
 
 
 @media (max-width: 1024px) {

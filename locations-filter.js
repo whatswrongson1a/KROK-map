@@ -4,34 +4,34 @@ els.forEach(el => io.observe(el));
   {
     id: 1,
     program: "journalism",
-    programLabel: "Журналістика",
-    title: "Локація кафедри журналістики",
-    url: "journalism-location.html",
+    programLabel: "С7 Журналістика",
+    title: "«Медіуми». Подкаст про медіаіндустрію",
+    url: "journalists-location.html",
     description: "Інформаційна локація для абітурієнтів освітньої програми «Журналістика».",
-    levels: ["college", "bachelor", "master"]
+    levels: ["bachelor", "master"]
   },
   {
     id: 2,
     program: "psychology",
-    programLabel: "Психологія",
-    title: "Локація кафедри психології",
+    programLabel: "С4 Психологія",
+    title: "Профорієнтаційне тестування ",
     url: "psychology-location.html",
     description: "Тут можна дізнатися деталі про навчання, вступ та програму кафедри психології.",
-    levels: ["college", "bachelor", "master"]
+    levels: ["bachelor", "master"]
   },
   {
     id: 3,
     program: "law",
-    programLabel: "Юридичний",
-    title: "Локація кафедри юридичного факультету",
-    url: "law-location.html",
+    programLabel: "D8 Право",
+    title: "«Право в дії - твій старт у професії»",
+    url: "pravo-location.html",
     description: "Локація для консультацій щодо освітньої програми юридичного напряму.",
-    levels: ["college", "bachelor", "master"]
+    levels: ["bachelor", "master"]
   },
   {
     id: 4,
     program: "cs",
-    programLabel: "Комп`ютерні науки",
+    programLabel: "F3 Комп’ютерні науки",
     title: "Локація ННІІКТ аудиторія 301",
     url: "cs-location-301.html",
     description: "Одна з основних локацій для ознайомлення з напрямом «Комп`ютерні науки».",
@@ -40,8 +40,8 @@ els.forEach(el => io.observe(el));
   {
     id: 5,
     program: "cs",
-    programLabel: "Комп`ютерні науки",
-    title: "Локація ННІІКТ аудиторія 106",
+    programLabel: "F3 Комп’ютерні науки",
+    title: "ІТ-КРОК – КОМП’ЮТЕРНІ НАУКИ",
     url: "cs-location-106.html",
     description: "Додаткова локація для освітньої програми «Комп`ютерні науки».",
     levels: ["college", "bachelor", "master"]
@@ -49,10 +49,28 @@ els.forEach(el => io.observe(el));
   {
     id: 6,
     program: "economics",
-    programLabel: "Економіка та фінанси",
-    title: "Локація кафедри економіки та фінансів",
+    programLabel: "D2 Фінанси, банківська справа, страхування та фондовий ринок",
+    title: "Фінансові-економічні тренди в епоху цифровізації",
     url: "economics-and-finances-location.html",
     description: "Локація для абітурієнтів, які цікавляться економічними та фінансовими спеціальностями.",
+    levels: ["college", "bachelor", "master"]
+  },
+  {
+    id: 7,
+    program: "psychology",
+    programLabel: "С4 Психологія",
+    title: "Поринь у світ психології",
+    url: "psychology-location.html",
+    description: "Тут можна дізнатися деталі про навчання, вступ та програму кафедри психології.",
+    levels: ["bachelor", "master"]
+  },
+  {
+    id: 8,
+    program: "managment",
+    programLabel: "D3 Менеджмент",
+    title: "Leader of the Future",
+    url: "psychology-location.html",
+    description: "Тут можна дізнатися деталі про навчання, вступ та програму кафедри психології.",
     levels: ["college", "bachelor", "master"]
   }
 ];
@@ -122,7 +140,7 @@ els.forEach(el => io.observe(el));
     const selectedProgram = programType.value;
 
     if (!selectedLevel || !selectedProgram) {
-      resultsInfo.textContent = "Будь ласка, оберіть і рівень освіти, і освітню програму.";
+      resultsInfo.textContent = "Будь ласка, оберіть і ступінь освіти, і спеціальність.";
       renderCards([]);
       return;
     }

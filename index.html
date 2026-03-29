@@ -51,59 +51,6 @@
 </div>
   </section>
 
-  <section class="location-filter-section" id="filter">
-  <div class="container">
-    <div class="section-header">
-      <span class="section-badge">Навігація по локаціях</span>
-      <h2>Обери потрібну локацію за критеріями</h2>
-      <p>
-        Обери рівень освіти та освітню програму, щоб швидко знайти потрібну локацію.
-      </p>
-    </div>
-
-    <div class="filter-panel">
-      <div class="filter-group">
-        <label for="educationLevel">Рівень освіти</label>
-        <select id="educationLevel">
-          <option value="">Оберіть рівень</option>
-          <option value="college">Коледж</option>
-          <option value="bachelor">Бакалаврат</option>
-          <option value="master">Магістратура</option>
-        </select>
-      </div>
-
-      <div class="filter-group">
-        <label for="programType">Освітня програма</label>
-        <select id="programType">
-          <option value="">Оберіть програму</option>
-          <option value="journalism">Журналістика</option>
-          <option value="psychology">Психологія</option>
-          <option value="law">Юридичний</option>
-          <option value="economics">Економіка та фінанси</option>
-          <option value="cs">Комп`ютерні науки</option>
-        </select>
-      </div>
-
-      <div class="filter-actions">
-        <button class="btn btn-primary" id="showResultsBtn" type="button">Підібрати локацію</button>
-        <button class="btn btn-secondary" id="showAllBtn" type="button">Показати весь список</button>
-        <button class="btn btn-ghost" id="resetBtn" type="button">Скинути</button>
-      </div>
-    </div>
-
-    <div class="results-topbar">
-      <p id="resultsInfo">Оберіть критерії або перегляньте весь список.</p>
-    </div>
-
-    <div class="locations-grid" id="locationsGrid"></div>
-
-    <div class="empty-state" id="emptyState">
-      <div class="empty-icon">📍</div>
-      <h3>Локації не знайдено</h3>
-      <p>Спробуй змінити критерії пошуку або переглянути весь список.</p>
-    </div>
-  </div>
-</section>
 
   <section id="program">
     <h2>Програма заходів</h2>
@@ -139,6 +86,61 @@
 
     <a href="https://forms.gle/HjvLmghBhTG5U4KHA" class="register-button">Пройдіть опитування, аби покращити сайт</a>
   </section>
+
+  <section class="location-filter-section" id="filter">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-badge">Навігація по локаціях</span>
+      <h2>Обери потрібну локацію</h2>
+      <p>
+        Обери ступінь освіти та освітню програму, щоб швидко знайти потрібну локацію.
+      </p>
+    </div>
+
+    <div class="filter-panel">
+      <div class="filter-group">
+        <label for="educationLevel">Ступінь освіти</label>
+        <select id="educationLevel">
+          <option value="">Оберіть ступінь</option>
+          <option value="college">Коледж</option>
+          <option value="bachelor">Бакалаврат</option>
+          <option value="master">Магістратура</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="programType">Спеціальність</label>
+        <select id="programType">
+          <option value="">Оберіть спеціальність</option>
+          <option value="journalism">С7 Журналістика</option>
+          <option value="psychology">С4 Психологія</option>
+          <option value="law">D8 Право</option>
+          <option value="law">D3 Менеджмент</option>
+          <option value="economics">D2 Фінанси, банківська справа, страхування та фондовий ринок</option>
+          <option value="cs">F3 Комп’ютерні науки</option>
+        </select>
+      </div>
+
+      <div class="filter-actions">
+        <button class="btn btn-primary" id="showResultsBtn" type="button">Підібрати локацію</button>
+        <button class="btn btn-secondary" id="showAllBtn" type="button">Показати весь список</button>
+        <button class="btn btn-ghost" id="resetBtn" type="button">Скинути</button>
+      </div>
+    </div>
+
+    <div class="results-topbar">
+      <p id="resultsInfo">Оберіть критерії або перегляньте весь список.</p>
+    </div>
+
+    <div class="locations-grid" id="locationsGrid"></div>
+
+    <div class="empty-state" id="emptyState">
+      <div class="empty-icon">📍</div>
+      <h3>Локації не знайдено</h3>
+      <p>Спробуй змінити критерії пошуку або переглянути весь список.</p>
+    </div>
+  </div>
+</section>
 
   <section id="managers">
   <h2 class="managers-title">Менеджери зі вступу</h2>
