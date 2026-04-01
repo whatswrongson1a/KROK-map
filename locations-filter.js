@@ -7,7 +7,7 @@ els.forEach(el => io.observe(el));
     programLabel: "С7 Журналістика",
     title: "«Медіуми». Подкаст про медіаіндустрію",
     url: "journalists-location.html",
-    description: "Інформаційна локація для абітурієнтів освітньої програми «Журналістика».",
+    description: "Презентація освітніх програм: Журналістика (бакалавр та магістр)",
     levels: ["bachelor", "master"]
   },
   {
@@ -16,7 +16,7 @@ els.forEach(el => io.observe(el));
     programLabel: "С4 Психологія",
     title: "Профорієнтаційне тестування ",
     url: "psychology-location.html",
-    description: "Тут можна дізнатися деталі про навчання, вступ та програму кафедри психології.",
+    description: "Презентація освітніх програм: Організаційна психологія (бакалавр), Екстремальна та кризова психологія (бакалавр), Психологія (магістр)",
     levels: ["bachelor", "master"]
   },
   {
@@ -25,16 +25,16 @@ els.forEach(el => io.observe(el));
     programLabel: "D8 Право",
     title: "«Право в дії - твій старт у професії»",
     url: "pravo-location.html",
-    description: "Локація для консультацій щодо освітньої програми юридичного напряму.",
+    description: "Презентація освітніх програм: Право (бакалавр та магістр)",
     levels: ["bachelor", "master"]
   },
   {
     id: 4,
     program: "cs",
     programLabel: "F3 Комп’ютерні науки",
-    title: "Локація ННІІКТ аудиторія 301",
-    url: "cs-location-301.html",
-    description: "Одна з основних локацій для ознайомлення з напрямом «Комп`ютерні науки».",
+    title: "ІТ-КРОК - 3D-ДРУК & РОБОТОТЕХНІКА (IoT)",
+    url: "nniikt-location-301.html",
+    description: "Презентація освітніх програм: Комп’ютерні науки (бакалавр), UI/UX проєктування та розробка (бакалавр)",
     levels: ["college", "bachelor", "master"]
   },
   {
@@ -42,8 +42,8 @@ els.forEach(el => io.observe(el));
     program: "cs",
     programLabel: "F3 Комп’ютерні науки",
     title: "ІТ-КРОК – КОМП’ЮТЕРНІ НАУКИ",
-    url: "cs-location-106.html",
-    description: "Додаткова локація для освітньої програми «Комп`ютерні науки».",
+    url: "nniikt-location-106.html",
+    description: "Презентація освітніх програм: Комп’ютерні науки (бакалавр), UI/UX проєктування та розробка (бакалавр), Agile-технології в проєктному менеджменті (магістр)",
     levels: ["college", "bachelor", "master"]
   },
   {
@@ -51,8 +51,8 @@ els.forEach(el => io.observe(el));
     program: "economics",
     programLabel: "D2 Фінанси, банківська справа, страхування та фондовий ринок",
     title: "Фінансові-економічні тренди в епоху цифровізації",
-    url: "economics-and-finances-location.html",
-    description: "Локація для абітурієнтів, які цікавляться економічними та фінансовими спеціальностями.",
+    url: "d2-location-finances-economics.html",
+    description: "Презентація освітніх програм кафедри економіки та фінансів. Датльніше на сторінці локації",
     levels: ["college", "bachelor", "master"]
   },
   {
@@ -60,8 +60,8 @@ els.forEach(el => io.observe(el));
     program: "psychology",
     programLabel: "С4 Психологія",
     title: "Поринь у світ психології",
-    url: "psychology-location.html",
-    description: "Тут можна дізнатися деталі про навчання, вступ та програму кафедри психології.",
+    url: "poryn-u-svit-psyhologii.html",
+    description: "Презентація освітніх програм: Організаційна психологія (бакалавр), Екстремальна та кризова психологія (бакалавр), Психологія (магістр)",
     levels: ["bachelor", "master"]
   },
   {
@@ -69,9 +69,18 @@ els.forEach(el => io.observe(el));
     program: "managment",
     programLabel: "D3 Менеджмент",
     title: "Leader of the Future",
-    url: "psychology-location.html",
-    description: "Тут можна дізнатися деталі про навчання, вступ та програму кафедри психології.",
+    url: "leader-of-the-future.html",
+    description: "Презентація освітніх програм: Менедмент (коледж), Менедмент (бакалавр), Менедмент організацій (магістр), Управління логістичною діяльністью (магістр)",
     levels: ["college", "bachelor", "master"]
+  },
+  {
+    id: 9,
+    program: "managment",
+    programLabel: "D3 Менеджмент",
+    title: "Територія лідерства",
+    url: "terytoria-liderstva.html",
+    description: "Презентація освітніх програм: Менедмент (коледж), Менедмент (бакалавр), Менедмент організацій (магістр), Управління логістичною діяльністью (магістр)",
+    levels: ["bachelor", "master"]
   }
 ];
 

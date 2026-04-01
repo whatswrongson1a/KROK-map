@@ -356,7 +356,6 @@ section h2 {
 .section-header {
   text-align: center;
   max-width: 800px;
-  margin: 0 auto 40px;
 }
 
 .section-badge {
@@ -376,7 +375,7 @@ section h2 {
   font-size: clamp(32px, 5vw, 52px);
   line-height: 1.08;
   color: var(--accent);
-  text-align: center;
+  text-align: start;
 }
 
 .section-header p {
@@ -384,6 +383,7 @@ section h2 {
   font-size: 18px;
   line-height: 1.6;
   color: var(--text-muted);
+  text-align: start;
 }
 
 .filter-panel {
@@ -1097,6 +1097,273 @@ section h2 {
 }
 
 /* конец кнопки вступу */
+
+/* спикеры */
+
+.speakers-section {
+  padding: 72px 64px;
+}
+
+
+
+.section-header {
+  max-width: 760px;
+  margin-bottom: 48px;
+}
+
+.section-label {
+  display: inline-block;
+  margin-bottom: 14px;
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: #eaf2fb;
+  color: #0f4c81;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.section-title {
+  margin: 0 0 16px;
+  color: #1f2b3d;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.section-subtitle {
+  margin: 0;
+  color: #667085;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.speakers-grid {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.speaker-card {
+  background: #ffffff;
+  border: 1px solid #e4ebf3;
+  border-radius: 32px;
+  padding: 28px;
+  box-shadow: 0 10px 30px rgba(39, 76, 119, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.speaker-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 40px rgba(39, 76, 119, 0.12);
+}
+
+.speaker-photo-wrap {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 24px;
+  overflow: hidden;
+  background: linear-gradient(180deg, #edf4fb 0%, #dfe9f5 100%);
+  margin-bottom: 24px;
+}
+
+.speaker-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.speaker-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.speaker-badge {
+  align-self: flex-start;
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: #0f5ea8;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.speaker-name {
+  margin: 0;
+  color: #1f2b3d;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.speaker-role {
+  margin: 0;
+  color: #0f5ea8;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.speaker-info {
+  margin: 0;
+  color: #667085;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+@media (max-width: 1100px) {
+  .speakers-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .container {
+  max-width: 1280px;
+  padding: 0;
+}
+
+  .section-title {
+    font-size: 40px;
+  }
+
+  .section-subtitle {
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 768px) {
+  .speakers-section {
+    padding: 40px 16px;
+  }
+
+  .speakers-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .section-header {
+    margin-bottom: 26px;
+  }
+
+  .section-title {
+    font-size: 26px;
+  }
+
+  .section-subtitle {
+    font-size: 16px;
+  }
+
+  .speaker-card {
+    padding: 20px;
+    border-radius: 24px;
+  }
+
+  .speaker-photo-wrap {
+    border-radius: 18px;
+    margin-bottom: 20px;
+  }
+
+  .speaker-name {
+    font-size: 26px;
+  }
+
+  .speaker-role {
+    font-size: 18px;
+  }
+
+  .speaker-info {
+    font-size: 16px;
+  }
+}
+
+/* конец спикеров */
+
+/* сосвітні програми */
+
+.programs-section {
+  padding: 72px 64px;
+}
+
+.programs-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+  align-items: stretch;
+}
+
+.program-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 138px;
+  padding: 26px 28px;
+  text-align: center;
+  text-decoration: none;
+  background: #005baa;
+  color: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 8px 18px rgba(0, 91, 170, 0.18);
+  transition: transform 0.25s ease, box-shadow 0.25s ease,
+    background-color 0.25s ease;
+}
+
+.program-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 28px rgba(0, 91, 170, 0.22);
+  background: #0b67b8;
+}
+
+.program-card__title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.program-card--wide {
+  grid-column: 1 / -1;
+  min-height: 126px;
+}
+
+@media (max-width: 992px) {
+  .programs-grid {
+    gap: 20px;
+  }
+
+  .program-card {
+    min-height: 120px;
+    padding: 22px 20px;
+  }
+
+  .program-card__title {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .programs-section {
+    padding: 40px 16px;
+  }
+
+  .programs-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .program-card,
+  .program-card--wide {
+    grid-column: auto;
+    min-height: 104px;
+    border-radius: 16px;
+  }
+
+  .program-card__title {
+    font-size: 17px;
+    line-height: 1.3;
+  }
+}
+/* конец освітні програми */
+
 
 /* футер */
 
