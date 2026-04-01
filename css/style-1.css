@@ -1230,6 +1230,12 @@ section h2 {
   .section-subtitle {
     font-size: 21px;
   }
+  .speakers-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+}
 }
 
 @media (max-width: 768px) {
