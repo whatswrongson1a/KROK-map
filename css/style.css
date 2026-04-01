@@ -671,7 +671,87 @@ section h2 {
     padding: 20px;
   }
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
+.location-filter-section .container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.filter-panel,
+.filter-group,
+.filter-actions,
+.locations-grid,
+.location-card {
+  min-width: 0;
+}
+
+.filter-group select {
+  width: 100%;
+  max-width: 100%;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+@media (max-width: 768px) {
+  .section-header h2 {
+    font-size: 32px;
+    line-height: 1.15;
+  }
+
+  .section-header p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .filter-panel {
+    grid-template-columns: 1fr;
+    padding: 16px;
+    gap: 16px;
+  }
+
+  .filter-group label {
+    font-size: 14px;
+  }
+
+  .filter-group select {
+    height: 52px;
+    font-size: 15px;
+    padding: 0 14px;
+  }
+
+  .filter-actions {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+    min-height: 50px;
+  }
+
+  .locations-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .location-card {
+    padding: 18px;
+  }
+
+  .location-card h3 {
+    font-size: 20px;
+  }
+
+  .card-program {
+    font-size: 13px;
+    padding: 7px 10px;
+  }
+}
 /* конец фильтра */
 
 /* секция программы и ивенты */
