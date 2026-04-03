@@ -1,6 +1,6 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -30,7 +30,7 @@ html {
 body {
   line-height: 1.6;
   color: #333;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   font-weight: 400; 
 }
 
@@ -822,13 +822,391 @@ section h2 {
 }
 
 .event-description {
+  font-size: 16px;
+  line-height: 140%;
+  color: #434455;
+  font-weight: medium;
+}
+
+.event-description-1 {
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
-  color: #B3B3B3;
+  color: #5f5f64;
+}
+/*  конец секции программы и ивенты */
+
+/* проф тест */
+.career-test-section {
+
+  padding: 32px 64px;
+  justify-content: center;
 }
 
-/*  конец секции программы и ивенты */
+.career-test-container {
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.career-test-content {
+  max-width: 850px;
+}
+
+.career-test-content h2 {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #0d4d87;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.career-test-content p {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #4a4a4a;
+  margin-bottom: 24px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.career-test-location {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 20px;
+  color: #4a4a4a;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.location-icon {
+  font-size: 18px;
+}
+
+.career-test-image img {
+  max-width: 260px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+@media (max-width: 1024px) {
+  .career-test-content h2 {
+    font-size: 36px;
+  }
+
+  .career-test-content p,
+  .career-test-location {
+    font-size: 18px;
+  }
+
+  .career-test-image img {
+    max-width: 220px;
+  }
+  .career-test-section {
+
+  padding: 32px 20px;
+  justify-content: center;
+}
+}
+
+
+@media (max-width: 768px) {
+  .career-test-section {
+    padding: 24px 16px;
+  }
+
+  .career-test-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .career-test-content {
+    max-width: 100%;
+  }
+
+  .career-test-content h2 {
+    font-size: 28px;
+  }
+
+  .career-test-content p {
+    font-size: 16px;
+    text-align: start;
+  }
+
+  .career-test-location {
+    justify-content: start;
+    font-size: 16px;
+  }
+
+  .career-test-image img {
+    max-width: 180px;
+  }
+}
+/* конец проф тест */
+
+/* krok fest zone */
+
+/* fest zone */
+.fest-zone-section {
+  padding-top: 70px;
+  padding: 32px 64px;
+  justify-content: center;
+  background-image: url('../bg-image.png');
+  background-repeat: no-repeat;
+  background-size:contain;
+  
+}
+
+
+.fest-zone-header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.fest-zone-decor {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.fest-zone-decor img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.fest-zone-header h2 {
+  margin-top: 270px;
+  text-align: center;
+  font-size: 62px;
+  font-weight: 800;
+  line-height: 120%;
+  color: #0d3f73;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.fest-zone-subtitle {
+  margin: 0 0 12px;
+  font-size: 24px;
+  line-height: 120%;
+  font-weight: 800;
+  color: #2d86d1;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.fest-zone-location {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 20px;
+  color: #4a4a4a;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.fest-zone-location-icon {
+  font-size: 18px;
+}
+
+.fest-zone-map-wrapper {
+  max-width: 860px;
+  margin: 0 auto 28px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 7px 19.9px 1px rgba(143, 192, 229, 0.67);
+  border: 8px solid #E8E8E8;
+}
+
+.fest-zone-map {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.fest-zone-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.fest-zone-card {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 10px;
+  align-items: center;
+}
+
+.fest-zone-card-image {
+  width: 100%;
+  height: 240px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 7px 19.9px 1px rgba(143, 192, 229, 0.67);
+  flex-shrink: 0;
+  border: 8px solid #E8E8E8;
+}
+
+
+
+.fest-zone-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.fest-zone-card-content {
+  background: #f8f8f8;
+  border-radius: 16px;
+  padding: 28px 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  min-height: 205px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fest-zone-card-content h3 {
+  margin: 0 0 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #0d3f73;
+}
+
+.fest-zone-card-content h3 span {
+  color: #f2b51f;
+}
+
+.fest-zone-card-content p {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  line-height: 1.4;
+  font-weight: 500;
+  color: #1568b3;
+}
+
+/* tablet */
+@media (max-width: 1024px) {
+  .fest-zone-section {
+    padding: 32px 20px;
+  }
+
+  .fest-zone-header h2 {
+    font-size: 36px;
+    margin-top: 170px;
+  }
+
+  .fest-zone-subtitle {
+    font-size: 20px;
+  }
+
+  .fest-zone-location {
+    font-size: 18px;
+  }
+
+  .fest-zone-card {
+    grid-template-columns: 180px 1fr;
+  }
+
+  .fest-zone-card-image {
+    height: 180px;
+  }
+
+  .fest-zone-card-content {
+    padding: 22px 24px;
+    min-height: 180px;
+  }
+
+  .fest-zone-card-content h3 {
+    font-size: 24px;
+  }
+
+  .fest-zone-card-content p {
+    font-size: 18px;
+  }
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .fest-zone-section {
+    padding: 24px 16px;
+  }
+
+  .fest-zone-header {
+    margin-bottom: 20px;
+  }
+
+  .fest-zone-header h2 {
+    font-size: 28px;
+    margin-top: 140px;
+  }
+
+  .fest-zone-subtitle {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .fest-zone-location {
+    justify-content: center;
+    font-size: 16px;
+  }
+
+  .fest-zone-map-wrapper {
+    margin-bottom: 20px;
+    border-radius: 16px;
+  }
+
+  .fest-zone-card {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .fest-zone-card-image {
+    height: 220px;
+  }
+
+  .fest-zone-card-content {
+    min-height: unset;
+    padding: 18px 16px;
+    border-radius: 14px;
+  }
+
+  .fest-zone-card-content h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  .fest-zone-card-content p {
+    font-size: 14px;
+    line-height: 1.45;
+  }
+}
+
+@media (max-width: 375px) {
+  .fest-zone-header h2 {
+    font-size: 28px;
+    margin-top: 70px;
+  }
+}
+
+
+/* end fest zone */
+
+/* конец krok fest zone */
+
+
 
 /* кнопка регистрации */
 
