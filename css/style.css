@@ -829,10 +829,11 @@ section h2 {
 }
 
 .event-description-1 {
-  font-weight: 400;
+  
   font-size: 16px;
   line-height: 140%;
-  color: #5f5f64;
+  color: #4a4a4a;
+  font-weight: 600;
 }
 /*  конец секции программы и ивенты */
 
@@ -870,6 +871,7 @@ section h2 {
   color: #4a4a4a;
   margin-bottom: 24px;
   font-family: 'Montserrat', sans-serif;
+  
 }
 
 .career-test-location {
@@ -879,6 +881,8 @@ section h2 {
   font-size: 20px;
   color: #4a4a4a;
   font-family: 'Montserrat', sans-serif;
+  color: #4a4a4a;
+  font-weight: 600;
 }
 
 .location-icon {
@@ -952,7 +956,6 @@ section h2 {
 
 /* fest zone */
 .fest-zone-section {
-  padding-top: 70px;
   padding: 32px 64px;
   justify-content: center;
   background-image: url('../bg-image.png');
@@ -1150,7 +1153,7 @@ section h2 {
 
   .fest-zone-header h2 {
     font-size: 28px;
-    margin-top: 140px;
+    margin-top: 110px;
   }
 
   .fest-zone-subtitle {
