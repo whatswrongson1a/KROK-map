@@ -104,8 +104,7 @@ body {
 /* хиро секция */
 
 #hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.8)),
-                  url('../hero-bg-2.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url('../hero-background.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1736,7 +1735,7 @@ section h2 {
   }
 
   .map-container {
-  padding: 8px 50px;
+    padding: 0px;
 }
 
   .map-placeholder {
@@ -1864,7 +1863,7 @@ section h2 {
   }
 
   .map-container {
-  padding: 0px 0px;
+  padding: 0;
 }
 
   #cyber-festival {
