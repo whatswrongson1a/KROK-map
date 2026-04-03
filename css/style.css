@@ -104,8 +104,8 @@ body {
 /* хиро секция */
 
 #hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
-                    url('../hero-background.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.8)),
+                  url('../hero-bg-2.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -980,7 +980,7 @@ section h2 {
 }
 
 .fest-zone-header h2 {
-  margin-top: 270px;
+  margin-top: 300px;
   text-align: center;
   font-size: 62px;
   font-weight: 800;
@@ -1221,7 +1221,7 @@ section h2 {
   min-width: 340px;
   min-height: 90px;
   margin: 64px auto 0;
-  padding: 24px 36px;
+  padding: 12px 10px;
 
   background: linear-gradient(180deg, #18578B 0%, #0E436F 100%);
   border: 1px solid rgba(14, 67, 111, 0.08);
@@ -1233,7 +1233,7 @@ section h2 {
 
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  font-size: clamp(22px, 3vw, 34px);
+  font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.01em;
 
@@ -1280,8 +1280,8 @@ section h2 {
 
 .managers-title {
   font-size: 42px;
-  font-weight: 800;
-  color: #032350;
+  font-weight: 700;
+  color: #0E436F;
   margin-bottom: 8px;
 }
 
