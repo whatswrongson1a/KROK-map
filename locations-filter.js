@@ -66,7 +66,7 @@ els.forEach(el => io.observe(el));
   },
   {
     id: 8,
-    program: "managment",
+    program: "management",
     programLabel: "D3 Менеджмент",
     title: "Leader of the Future",
     url: "leader-of-the-future.html",
@@ -75,7 +75,7 @@ els.forEach(el => io.observe(el));
   },
   {
     id: 9,
-    program: "managment",
+    program: "management",
     programLabel: "D3 Менеджмент",
     title: "Територія лідерства",
     url: "terytoria-liderstva.html",
