@@ -253,6 +253,10 @@ section h2 {
   margin-bottom: 24px;
 }
 
+.map-container {
+  padding: 20px 430px;
+}
+
 .map-placeholder {
   position: relative;
   display: flex;
@@ -1106,6 +1110,7 @@ section h2 {
 
 
 
+
 .section-header {
   max-width: 760px;
   margin-bottom: 48px;
@@ -1142,6 +1147,7 @@ section h2 {
   display: flex;
   justify-content: center;
   gap: 32px;
+
 }
 
 .speaker-card {
@@ -1151,6 +1157,7 @@ section h2 {
   padding: 28px;
   box-shadow: 0 10px 30px rgba(39, 76, 119, 0.08);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
+  max-width: 480px;
 }
 
 .speaker-card:hover {
@@ -1162,10 +1169,13 @@ section h2 {
   width: 100%;
   aspect-ratio: 1 / 1;
   border-radius: 24px;
+  max-width: 680px;
   overflow: hidden;
   background: linear-gradient(180deg, #edf4fb 0%, #dfe9f5 100%);
   margin-bottom: 24px;
+  
 }
+
 
 .speaker-photo {
   width: 100%;
@@ -1197,6 +1207,7 @@ section h2 {
   font-size: 32px;
   font-weight: 800;
   line-height: 1.2;
+
 }
 
 .speaker-role {
@@ -1212,6 +1223,7 @@ section h2 {
   color: #667085;
   font-size: 18px;
   line-height: 1.6;
+  
 }
 
 @media (max-width: 1100px) {
@@ -1441,6 +1453,11 @@ section h2 {
     max-width: 740px;
   }
 
+  .map-container {
+  padding: 8px 150px;
+}
+
+
   #cyber-festival {
   padding: 48px 20px;
   background-color: #0E436F;
@@ -1620,6 +1637,10 @@ section h2 {
   #cyber-festival h2 {
   font-size: 28px;
   
+}
+
+.map-container {
+    padding: 0px;
 }
 
 #section-h2-yellow {
