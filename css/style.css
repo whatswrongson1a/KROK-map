@@ -135,7 +135,7 @@ body {
 }
 
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .znyzhka-photo {
     max-width: 375px;
   }
