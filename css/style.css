@@ -101,7 +101,92 @@ body {
 
 /* конец хедера */
 
+/* знижка */
+#znyzhka {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding:64px;
+}
+
+.znyzhka-photo {
+  max-width: 1050px;
+}
+
+
+@media (max-width: 1024px) {
+  .znyzhka-photo {
+    max-width: 850px;
+  }
+  #znyzhka {
+  padding: 44px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .znyzhka-photo {
+    max-width: 650px;
+  }
+  #znyzhka {
+  padding: 44px;
+  }
+}
+
+
+@media (max-width: 375px) {
+  .znyzhka-photo {
+    max-width: 375px;
+  }
+  #znyzhka {
+  padding: 20px;
+  }
+}
+
+
+/* конец знижка*/
+
 /* хиро секция */
+
+.hero-date-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: rgba(48, 48, 48, 0.72);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.22);
+  color: #ffffff;
+  width: fit-content;
+}
+
+.hero-date-badge__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #61d36d;
+  box-shadow: 0 0 10px rgba(97, 211, 109, 0.55);
+  flex-shrink: 0;
+}
+
+.hero-date-badge__icon {
+  width: 18px;
+  height: 18px;
+  color: rgba(255, 255, 255, 0.9);
+  flex-shrink: 0;
+}
+
+.hero-date-badge__text {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.01em;
+}
 
 #hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url('../hero-background.png');
@@ -1346,6 +1431,33 @@ section h2 {
   line-height: 19px;
 }
 
+.managers-p {
+  font-size: 26px;
+  font-weight: 600;
+  color: #002C52;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .managers-p {
+  font-size: 22px;
+  font-weight: 600;
+  color: #002C52;
+  text-align: center;
+}
+}
+
+@media (max-width: 375px) {
+  .managers-p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #002C52;
+  text-align: center;
+}
+}
+
+
+
 /* конец менеджерс */
 
 /* кнопка вступу */
@@ -1414,8 +1526,8 @@ section h2 {
 /* футер */
 
 #footer {
-  background: #0E436F; 
-  padding: 32px 64px;
+  background: #0E436F;
+  padding: 32px 64px 20px;
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
 }
@@ -1425,6 +1537,8 @@ section h2 {
   justify-content: space-between;
   align-items: center;
   gap: 48px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .footer-logo {
@@ -1462,6 +1576,51 @@ section h2 {
 
 .footer-right a:hover {
   opacity: 0.8;
+}
+
+.footer-bottom {
+  padding-top: 16px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+@media (max-width: 1024px) {
+  .footer-bottom {
+    padding-top: 14px;
+  }
+
+  .footer-bottom p {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-bottom {
+    padding-top: 12px;
+  }
+
+  .footer-bottom p {
+    font-size: 12px;
+    line-height: 1.45;
+  }
+}
+
+@media (max-width: 375px) {
+  .footer-bottom {
+    padding-top: 10px;
+  }
+
+  .footer-bottom p {
+    font-size: 11px;
+    line-height: 1.4;
+  }
 }
 
 /* конец футера */
