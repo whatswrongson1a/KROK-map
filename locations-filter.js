@@ -12,12 +12,12 @@ els.forEach(el => io.observe(el));
   },
   {
     id: 2,
-    program: "psychology",
-    programLabel: "С4 Психологія",
-    title: "Профорієнтаційне тестування ",
-    url: "psychology-location.html",
-    description: "Презентація освітніх програм: Організаційна психологія (бакалавр), Екстремальна та кризова психологія (бакалавр), Психологія (магістр)",
-    levels: ["bachelor", "master"]
+    program: "gotelno-restoranna-sprava",
+    programLabel: "J2 Готельно-ресторанна справа та кейтеринг",
+    title: "Ділова-гра «ЯК добратись? Де зупинитись? Що подивитись?»",
+    url: "gotel-restoran.html",
+    description: "Презентація освітніх програм: Журналістика (бакалавр та магістр)",
+    levels: ["college"]
   },
   {
     id: 3,
@@ -49,7 +49,7 @@ els.forEach(el => io.observe(el));
   {
     id: 6,
     program: "economics",
-    programLabel: "D2 Фінанси, банківська справа, страхування та фондовий ринок",
+    programLabel: ["D2 Фінанси, банківська справа, страхування та фондовий ринок", "С1 Економіка"],
     title: "Фінансові-економічні тренди в епоху цифровізації",
     url: "d2-location-finances-economics.html",
     description: "Презентація освітніх програм кафедри економіки та фінансів. Датльніше на сторінці локації",
@@ -81,6 +81,15 @@ els.forEach(el => io.observe(el));
     url: "terytoria-liderstva.html",
     description: "Презентація освітніх програм: Менедмент (коледж), Менедмент (бакалавр), Менедмент організацій (магістр), Управління логістичною діяльністью (магістр)",
     levels: ["bachelor", "master"]
+  },
+  {
+    id: 10,
+    program: "marketing",
+    programLabel: "D5 Маркетинг",
+    title: "Маркетинговий хаб «Точка росту»",
+    url: "marketingoviy-hub.html",
+    description: "Презентація освітніх програм: Маркетинг (коледж, бакалавр, магістр)",
+    levels: ["college", "bachelor", "master"]
   }
 ];
 
