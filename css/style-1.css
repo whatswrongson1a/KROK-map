@@ -55,14 +55,14 @@ body {
 .header nav {
   display: flex;
   flex-direction: row;
-  gap: 550px;
+  width: 100%;
 }
 
 .header nav ul {
   display: flex;
   gap: 24px;
   list-style: none;
-  margin: 0;
+  margin-left: auto;
 }
 
 .header nav ul li {
