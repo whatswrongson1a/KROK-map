@@ -757,6 +757,14 @@ section h2 {
   gap: 32px;
 }
 
+.audience-cards-2 {
+  margin: 0 auto;
+  padding: 40px 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+}
+
 .audience-card {
   background: #ffffff;
   border-radius: 24px;

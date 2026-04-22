@@ -90,6 +90,15 @@ els.forEach(el => io.observe(el));
     url: "marketingoviy-hub.html",
     description: "Презентація освітніх програм: Маркетинг (коледж, бакалавр, магістр)",
     levels: ["college", "bachelor", "master"]
+  },
+  {
+    id: 11,
+    program: "marketing",
+    programLabel: "D5 Маркетинг",
+    title: "Освіта чи ілюзія: що насправді дає маркетинг",
+    url: "marketing-college.html",
+    description: "Презентація освітніх програм: Маркетинг (коледж)",
+    levels: ["college"]
   }
 ];
 
