@@ -99,6 +99,15 @@ els.forEach(el => io.observe(el));
     url: "marketing-college.html",
     description: "Презентація освітніх програм: Маркетинг (коледж)",
     levels: ["college"]
+  },
+  {
+    id: 12,
+    program: "design",
+    programLabel: "B2 Дизайн",
+    title: "Design Lab: Простір креативних ідей",
+    url: "b2-design.html",
+    description: "Презентація освітніх програм: Дизайн середовища (бакалавр), Графічний дизайн (бакалавр)",
+    levels: ["bachelor"]
   }
 ];
 
