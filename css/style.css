@@ -401,8 +401,8 @@ section h2 {
 
   font-size: 26px;
   line-height: 1;
-  background: rgba(0, 0, 0, 0.45);
-  color: #fff;
+  background: rgba(0, 0, 0, 0.22);
+  color: rgba(255, 255, 255, 0.82);
 }
 
 .carousel-btn.prev {
@@ -414,7 +414,8 @@ section h2 {
 }
 
 .carousel-btn:hover {
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(0, 0, 0, 0.36);
+  color: #fff;
 }
 
 /* конец секции карт */
@@ -461,7 +462,7 @@ section h2 {
   border-radius: 999px;
   background: var(--accent-light);
   color: var(--accent);
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: 0.02em;
 }
@@ -1123,18 +1124,22 @@ section h2 {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .fest-zone-card {
   display: grid;
-  grid-template-columns: 240px 1fr;
-  gap: 10px;
+  grid-template-columns: minmax(180px, 240px) minmax(0, 1fr);
+  gap: 16px;
   align-items: center;
+  width: 100%;
 }
 
 .fest-zone-card-image {
   width: 100%;
-  height: 240px;
+  height: auto;
+  aspect-ratio: 1 / 1;
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0px 7px 19.9px 1px rgba(143, 192, 229, 0.67);
@@ -1204,11 +1209,14 @@ section h2 {
   }
 
   .fest-zone-card {
-    grid-template-columns: 180px 1fr;
+    grid-template-columns: minmax(160px, 180px) minmax(0, 1fr);
+    gap: 14px;
   }
 
   .fest-zone-card-image {
-    height: 180px;
+    max-width: 320px;
+    height: auto;
+    margin: 0 auto;
   }
 
   .fest-zone-card-content {
@@ -1257,11 +1265,16 @@ section h2 {
 
   .fest-zone-card {
     grid-template-columns: 1fr;
-    gap: 10px;
+    gap: 12px;
+    width: 100%;
+    max-width: 520px;
+    margin: 0 auto;
   }
 
   .fest-zone-card-image {
-    height: 220px;
+    max-width: 320px;
+    height: auto;
+    margin: 0 auto;
   }
 
   .fest-zone-card-content {
@@ -1285,6 +1298,22 @@ section h2 {
   .fest-zone-header h2 {
     font-size: 28px;
     margin-top: 70px;
+  }
+
+  .fest-zone-card-content {
+    padding: 16px 14px;
+  }
+
+  .fest-zone-card-image {
+    max-width: 260px;
+  }
+
+  .fest-zone-card-content h3 {
+    font-size: 17px;
+  }
+
+  .fest-zone-card-content p {
+    font-size: 13px;
   }
 }
 
@@ -1400,9 +1429,11 @@ section h2 {
 
 .manager-card img {
   width: 100%;
-  height: 220px;
+  height: auto;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 8px;
+  display: block;
 }
 
 .manager-info {
@@ -1985,7 +2016,9 @@ section h2 {
   }
 
   .manager-card img {
-    height: 200px;
+    max-width: 320px;
+    height: auto;
+    margin: 0 auto;
   }
 
   .manager-info {
@@ -2019,6 +2052,10 @@ section h2 {
     border: 10px solid #FFFFFF;
     object-fit: cover;
     max-width: 240px;
+  }
+
+  .manager-card img {
+    max-width: 260px;
   }
 
   .map-container {
