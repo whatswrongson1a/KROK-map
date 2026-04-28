@@ -3,6 +3,15 @@ els.forEach(el => io.observe(el));
  const locationsData = [
   {
     id: 1,
+    program: "cs",
+    programLabel: "F3 Комп’ютерні науки",
+    title: "ІТ-КРОК – КОМП’ЮТЕРНІ НАУКИ",
+    url: "nniikt-location-106.html",
+    description: "Презентація освітніх програм: Комп’ютерні науки (бакалавр), UI/UX проєктування та розробка (бакалавр), Agile-технології в проєктному менеджменті (магістр)",
+    levels: ["college", "bachelor", "master"]
+  },
+  {
+    id: 2,
     program: "journalism",
     programLabel: "С7 Журналістика",
     title: "«Медіуми». Подкаст про медіаіндустрію",
@@ -11,7 +20,7 @@ els.forEach(el => io.observe(el));
     levels: ["bachelor", "master"]
   },
   {
-    id: 2,
+    id: 3,
     program: "gotelno-restoranna-sprava",
     programLabel: "J2 Готельно-ресторанна справа та кейтеринг",
     title: "Ділова-гра «ЯК добратись? Де зупинитись? Що подивитись?»",
@@ -20,7 +29,7 @@ els.forEach(el => io.observe(el));
     levels: ["college"]
   },
   {
-    id: 3,
+    id: 4,
     program: "law",
     programLabel: "D8 Право",
     title: "«Право в дії - твій старт у професії»",
@@ -29,21 +38,12 @@ els.forEach(el => io.observe(el));
     levels: ["bachelor", "master"]
   },
   {
-    id: 4,
+    id: 5,
     program: "cs",
     programLabel: "F3 Комп’ютерні науки",
     title: "ІТ-КРОК - 3D-ДРУК & РОБОТОТЕХНІКА (IoT)",
     url: "nniikt-location-301.html",
     description: "Презентація освітніх програм: Комп’ютерні науки (бакалавр), UI/UX проєктування та розробка (бакалавр)",
-    levels: ["college", "bachelor", "master"]
-  },
-  {
-    id: 5,
-    program: "cs",
-    programLabel: "F3 Комп’ютерні науки",
-    title: "ІТ-КРОК – КОМП’ЮТЕРНІ НАУКИ",
-    url: "nniikt-location-106.html",
-    description: "Презентація освітніх програм: Комп’ютерні науки (бакалавр), UI/UX проєктування та розробка (бакалавр), Agile-технології в проєктному менеджменті (магістр)",
     levels: ["college", "bachelor", "master"]
   },
   {
@@ -108,6 +108,15 @@ els.forEach(el => io.observe(el));
     url: "b2-design.html",
     description: "Презентація освітніх програм: Дизайн середовища (бакалавр), Графічний дизайн (бакалавр)",
     levels: ["bachelor"]
+  },
+  {
+    id: 13,
+    program: "management",
+    programLabel: "D3 Менеджмент",
+    title: "Бізнес-школа КРОК",
+    url: "biznes-shkola.html",
+    description: "Презентація освітніх програм: Бізнес-адміністрування, Медіація та менеджмент конфліктів, Менеджмент проектів та процесів",
+    levels: ["master"]
   }
 ];
 
