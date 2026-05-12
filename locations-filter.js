@@ -26,7 +26,7 @@ els.forEach(el => io.observe(el));
     title: "Ділова-гра «ЯК добратись? Де зупинитись? Що подивитись?»",
     url: "gotel-restoran.html",
     description: "Презентація освітніх програм: Журналістика (бакалавр та магістр)",
-    levels: ["college"]
+    levels: ["bachelor", "master"]
   },
   {
     id: 4,
@@ -49,7 +49,7 @@ els.forEach(el => io.observe(el));
   {
     id: 6,
     program: "economics",
-    programLabel: ["D2 Фінанси, банківська справа, страхування та фондовий ринок", "С1 Економіка"],
+    programLabel: ["D2 Фінанси, банківська справа, страхування та фондовий ринок", " С1 Економіка"],
     title: "Фінансові-економічні тренди в епоху цифровізації",
     url: "d2-location-finances-economics.html",
     description: "Презентація освітніх програм кафедри економіки та фінансів. Датльніше на сторінці локації",
@@ -117,6 +117,15 @@ els.forEach(el => io.observe(el));
     url: "biznes-shkola.html",
     description: "Презентація освітніх програм: Бізнес-адміністрування, Медіація та менеджмент конфліктів, Менеджмент проектів та процесів",
     levels: ["master"]
+  },
+  {
+    id: 14,
+    program: "fahoviy koledge",
+    programLabel: "Фаховий коледж",
+    title: "Коло друзів (для слухачів підготовчих курсів)",
+    url: "fahovyi-koledge.html",
+    description: "",
+    levels: ["college"]
   }
 ];
 
