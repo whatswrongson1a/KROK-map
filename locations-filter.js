@@ -25,8 +25,8 @@ els.forEach(el => io.observe(el));
     programLabel: "J2 Готельно-ресторанна справа та кейтеринг",
     title: "Ділова-гра «ЯК добратись? Де зупинитись? Що подивитись?»",
     url: "gotel-restoran.html",
-    description: "Презентація освітніх програм: Журналістика (бакалавр та магістр)",
-    levels: ["bachelor", "master"]
+    description: "Презентація освітньої програми: Готельно-ресторанна справа та кейтеринг (коледж)",
+    levels: ["college"]
   },
   {
     id: 4,
@@ -35,7 +35,7 @@ els.forEach(el => io.observe(el));
     title: "«Право в дії - твій старт у професії»",
     url: "pravo-location.html",
     description: "Презентація освітніх програм: Право (бакалавр та магістр)",
-    levels: ["bachelor", "master"]
+    levels: ["college", "bachelor", "master"]
   },
   {
     id: 5,
@@ -79,8 +79,8 @@ els.forEach(el => io.observe(el));
     programLabel: "D3 Менеджмент",
     title: "Територія лідерства",
     url: "terytoria-liderstva.html",
-    description: "Презентація освітніх програм: Менедмент (коледж), Менедмент (бакалавр), Менедмент організацій (магістр), Управління логістичною діяльністью (магістр)",
-    levels: ["bachelor", "master"]
+    description: "Презентація освітніх програм: Менедмент (англійська мова навчання), Міжнародний менеджмент (бакалавр)",
+    levels: ["bachelor"]
   },
   {
     id: 10,
@@ -113,7 +113,7 @@ els.forEach(el => io.observe(el));
     id: 13,
     program: "management",
     programLabel: "D3 Менеджмент",
-    title: "Бізнес-школа КРОК",
+    title: "Бізнес Школа КРОК",
     url: "biznes-shkola.html",
     description: "Презентація освітніх програм: Бізнес-адміністрування, Медіація та менеджмент конфліктів, Менеджмент проектів та процесів",
     levels: ["master"]
