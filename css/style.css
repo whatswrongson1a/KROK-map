@@ -169,7 +169,7 @@ body {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: #61d36d;
+  background-color: #b74b4b;
   box-shadow: 0 0 10px rgba(97, 211, 109, 0.55);
   flex-shrink: 0;
 }
@@ -483,7 +483,7 @@ section h2 {
 }
 
 .filter-panel {
-  display: grid;
+  display: none;
   grid-template-columns: repeat(2, minmax(240px, 1fr));
   gap: 20px;
   padding: 28px;

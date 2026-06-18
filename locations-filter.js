@@ -235,3 +235,5 @@ els.forEach(el => io.observe(el));
       filterLocations();
     }
   });
+
+  renderCards(locationsData);
